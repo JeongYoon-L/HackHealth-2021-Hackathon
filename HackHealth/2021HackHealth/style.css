@@ -1,0 +1,179 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #5CA4EA;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+  /* index.html ( the title & button )*/
+.button_container {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.startBtnCenter {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+}
+  
+.btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+  
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+  
+.btn:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+}
+  
+.btn:hover svg {
+    stroke-dashoffset: -480;
+}
+  
+.btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+  /* index.html */
+
+
+  /* stretches.html */
+
+.alignImgVid{
+  top: 10%;
+  
+}
+
+.poseImg{
+  position: absolute;
+  top: 10%;
+  left:15%;
+}
+
+.timer{
+  position: absolute;
+  font-size: 50px;
+  left: 5%;
+  top: 5%;
+  font-weight: bold;
+  color: white;
+}
+
+.livePose{
+  position: absolute;
+  top: 10%;
+  right:15%;
+}
+
+.alignPoseImg{
+    text-align:center;
+    width:100%;
+    bottom:3%;
+    position: fixed;
+}
+
+  /*arrow*/
+  .arrow {
+    border: solid yellowgreen;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 12px;
+    right: 5%;
+    top: 50%;
+    position: absolute;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+
+
+   /*popup*/
+   .popup {
+    display: block;
+    position: fixed;
+    padding: 10px;
+    width: 480px;
+    left: 42%;
+    margin-left: -150px;
+    height: 180px;
+    top: 50%;
+    margin-top: -100px;
+    background: #FFF;
+    z-index: 20;
+    text-align: center;
+  }
+
+  
+  #popup1 {
+    -webkit-box-shadow:  0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+    box-shadow:  0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+  }
+
+  /*count down*/
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+
+.container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: auto;
+  z-index: 3;
+}
+
+.path--background {
+  fill: rgb(34, 213, 201);
+  stroke: #fff;
+  stroke-width: 0px;
+}
+
+.pulse {
+  fill: rgb(255, 74, 74) !important;
+}
+
+.path--foreground {
+  fill: #eee;
+  stroke: #eee;
+  stroke-width: 2px;
+}
+
+.label {
+  font: 90px "Open Sans";
+  font-weight: 900;
+  text-anchor: middle;
+  fill: rgb(34, 213, 201);
+}
+
+/*timer*/
+
